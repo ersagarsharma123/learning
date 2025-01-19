@@ -5,3 +5,16 @@ print(result)
 
 x=lambda y: y**2
 print(x(5))
+# =====================================
+
+# =======================================
+temp=56
+print(id(temp))
+def temp1():
+    global temp 
+    print(temp)
+    print(id(temp))
+    return temp
+
+temp1()
+print(temp)

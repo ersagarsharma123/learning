@@ -1,0 +1,27 @@
+# l1 = [1,2,3,4,5,6,7,8,9]
+
+
+# def create_chunk(l1, n):
+#     for i in range(0, len(l1), n):
+#         yield l1[i:i+n]
+
+
+# create_chunk(l1, 2)
+
+# print(next(create_chunk(l1,2)))
+
+# print(next(create_chunk(l1,2)))
+
+# print(next(create_chunk(l1,2)))
+
+# print(next(create_chunk(l1,2)))
+
+# print(next(create_chunk(l1,2)))
+# ==========================================================
+
+num = 123215
+
+d1 = [*str(num)]
+d2 = d1.reverse()
+
+print(int(''.join(d1)))
